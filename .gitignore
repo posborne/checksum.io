@@ -1,0 +1,13 @@
+# Editor Files
+*~
+*\#*\#
+.*project*
+
+# Python Files
+*.pyc
+*.pyo
+
+# Buildout/Virtualenv Directories
+.buildout
+bin
+venv
