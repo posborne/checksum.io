@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="Buildout Eggs">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/pyramid-1.4.5-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/SQLAlchemy-0.8.3-py2.7-linux-x86_64.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/zope.sqlalchemy-0.7.3-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/Jinja2-2.7.1-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/pyramid_jinja2-1.9-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/pyramid_tm-0.7-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/pyramid_debugtoolbar-1.0.9-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/waitress-0.8.7-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/crcmod-1.7-py2.7-linux-x86_64.egg" />
+      <root url="file:///usr/lib/python2.7/dist-packages" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/Pygments-1.6-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/pyramid_mako-0.3.1-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/transaction-1.4.1-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/PasteDeploy-1.5.0-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/translationstring-1.1-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/venusian-1.0a8-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/zope.deprecation-4.0.2-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/repoze.lru-0.6-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/WebOb-1.2.3-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/.buildout/eggs/Chameleon-2.13_1-py2.7.egg" />
+      <root url="file://$PROJECT_DIR$/src" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

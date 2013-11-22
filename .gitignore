@@ -2,6 +2,8 @@
 *~
 *\#*\#
 .*project*
+.idea/workspace.xml
+.idea/.name
 
 # Python Files
 *.pyc
