@@ -3,8 +3,7 @@ import os
 from setuptools import setup, find_packages
 
 here = os.path.abspath(os.path.dirname(__file__))
-README = open(os.path.join(here, 'README.txt')).read()
-CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
+README = open(os.path.join(here, 'README.md')).read()
 
 requires = [
     'pyramid',
@@ -19,7 +18,7 @@ requires = [
 setup(name='checksumio',
       version='0.0',
       description='checksumio',
-      long_description=README + '\n\n' + CHANGES,
+      long_description=README,
       classifiers=[
         "Programming Language :: Python",
         "Framework :: Pyramid",
@@ -30,7 +29,8 @@ setup(name='checksumio',
       author_email='',
       url='',
       keywords='web wsgi bfg pylons pyramid',
-      packages=find_packages(),
+      package_dir={'checksumio': 'src/checksumio'},
+      packages=find_packages("src"),
       include_package_data=True,
       zip_safe=False,
       test_suite='checksumio',

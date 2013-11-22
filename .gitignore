@@ -8,6 +8,7 @@
 # Python Files
 *.pyc
 *.pyo
+*.egg-info*
 
 # Buildout/Virtualenv Directories
 .buildout
