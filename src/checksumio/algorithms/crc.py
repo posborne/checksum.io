@@ -15,7 +15,7 @@ class PredefinedCRCAlgorithClassifier(object):
 
     CRC_ALGORITHM_NAMES = [defn[0] for defn in _crc_definitions_table]
 
-    def classify(self, payload, checksum):
+    def find_match(self, payload, checksum):
         for name in self.CRC_ALGORITHM_NAMES:
             crcfun = mkPredefinedCrcFun(name)
             computed_checksum = crcfun(payload)

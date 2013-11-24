@@ -11,6 +11,8 @@ def make_checksumio_wsgiapp(*args, **settings):
     config.add_static_view('static', 'static', cache_max_age=3600)
     config.add_route('index', '/')
     config.add_route('revcheck', '/revcheck')
+    config.add_route('validate_payload', '/validate/payload')
+    config.add_route('validate_checksum', '/validate/checksum')
     config.scan()
     return config.make_wsgi_app()
 

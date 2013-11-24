@@ -13,7 +13,7 @@ class TestPredefinedCRCAlgorithmClassifer(unittest.TestCase):
         self.assertEqual(crcfun('123456789'), 0xBB3D)
 
     def test_classify_crc16(self):
-        classification = self.classifier.classify('123456789', 0xBB3D)
+        classification = self.classifier.find_match('123456789', 0xBB3D)
         self.assertEqual(classification, 'crc-16')
 
 if __name__ == '__main__':

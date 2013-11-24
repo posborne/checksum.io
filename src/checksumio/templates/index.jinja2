@@ -19,12 +19,12 @@ $(document).ready(function() {
   <h1>checksum.io <small>Got a checksum problem?</small></h1>
 </div>
 <div>
-  <form id="revform" role="form">
+  <form id="revform" role="form" parsley-validate>
     <div class="form-group">
-      <textarea placeholder="Payload" class="form-control" rows="3" name="payload"></textarea>
+      <textarea placeholder="Payload" class="form-control" rows="3" name="payload" required parsley-remote="/validate/payload"></textarea>
     </div>
     <div class="form-group">
-      <input type="text" placeholder="Known Checksum" class="form-control" name="checksum" />
+      <input type="text" placeholder="Known Checksum" class="form-control" name="checksum" required parsley-remote="/validate/checksum" />
     </div>
     <div class="form-group">
       <button type="button" class="btn btn-primary" id="btn_revchecksum">Calculate!</button>
